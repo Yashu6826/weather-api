@@ -19,7 +19,7 @@ export default function showTemp({text}) {
                 <div className='card'>
                     
                     <div className='card-body'>
-                        <h5 className='card-title'>Temp </h5>
+                        <h5 className='card-title'>Temperature</h5>
                         <p className='card-text'>{text.temp}</p>
                     </div>
                 </div>
@@ -29,7 +29,7 @@ export default function showTemp({text}) {
                 <div className='card'>
                     
                     <div className='card-body'>
-                        <h5 className='card-title'>Temp Maximum </h5>
+                        <h5 className='card-title'>Maximum Temperature </h5>
                         <p className='card-text'>{text.temp_max}</p>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ export default function showTemp({text}) {
                 <div className='card'>
                     
                     <div className='card-body'>
-                        <h5 className='card-title'>Temp Minimum </h5>
+                        <h5 className='card-title'> Minimum Temperature </h5>
                         <p className='card-text'>{text.temp_min}</p>
                     </div>
                 </div>

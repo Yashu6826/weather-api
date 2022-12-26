@@ -20,7 +20,7 @@ function App() {
   })
 
   const handleClick =()=>{
-    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3628d4bdbec66ab5d5113167233b64ca`)
+    axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=3628d4bdbec66ab5d5113167233b64ca`)
   .then((response)=>{
    setData({
     description:response.data.weather[0].description,
